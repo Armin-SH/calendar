@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'fontMedium';
+  src: url('./public/fonts/IRANSans/IRANSansMedium.woff') format('truetype');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'fontRegular';
+  src: url('./public/fonts/IRANSans/IRANSansRegular.woff') format('truetype');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'fontBold';
+  src: url('./public/fonts/IRANSans/IRANSansBold.woff') format('truetype');
+  font-display: swap;
+
+}
+
+@font-face {
+  font-family: 'fontLight';
+  src: url('./public/fonts/IRANSans/IRANSansLight.woff') format('truetype');
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
